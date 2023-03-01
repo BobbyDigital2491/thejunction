@@ -16,9 +16,9 @@ export function Navbar() {
         <div className={styles.navLeft}>
           <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
             <Image
-              src="/bg2.png"
-              width={88}
-              height={98}
+              src="/no1.png"
+              width={68}
+              height={78}
               alt="Viccci Logo"
             />
           </Link>
@@ -56,3 +56,4 @@ export function Navbar() {
     </div>
   );
 }
+
