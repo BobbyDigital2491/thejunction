@@ -23,6 +23,7 @@ import randomColor from "../../../util/randomColor";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 import toast, { Toaster } from "react-hot-toast";
 import toastStyle from "../../../util/toastConfig";
+import SEO from "../../../components/SEO/SEO";
 
 type Props = {
   nft: NFT;
@@ -117,6 +118,10 @@ export default function TokenPage({ nft, contractMetadata }: Props) {
   return (
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
+      <SEO title={"The Junction: Built Using Polygon Layer 2 technology."} 
+      description={"The Junction is a decentralized NFT marketplace built on the cutting-edge Polygon Layer 2 technology."} 
+      image={"public/junction.png"} 
+      url={"Viccci.xyz"}  />
       <Container maxWidth="lg">
         <div className={styles.container}>
           <div className={styles.metadataContainer}>
@@ -397,3 +402,4 @@ export const getStaticPaths: GetStaticPaths = async () => {
     fallback: "blocking", // can also be true or 'blocking'
   };
 };
+
