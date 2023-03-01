@@ -1,4 +1,4 @@
-# NFT Marketplace V3
+# The Junction: NFT Marketplace Built on Polygon Layer 2 technology
 
 Create an NFT marketplace on top of your NFT collection on **any** EVM-compatible blockchain.
 
