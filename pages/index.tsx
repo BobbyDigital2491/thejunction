@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -41,19 +42,10 @@ const Home: NextPage = () => {
             </div>
           </div>
           <br/><br/><br/><br/><br/><br/>
-          <img src="/bg2.png" width={400} height={300} alt="Log"/>
-          <div className={styles.heroBodyContainer}>
-            <div className={styles.heroBody}>
+          <Image src="/bg2.png" width={400} height={300} alt="Log"/>
+          
             
-              <h2 className={styles.heroTitle}>
-                
-                <span className={styles.heroTitleGradient}>
-                 Built On Polygon Layer 2
-                
-                  
-                </span>
-                <br />
-              </h2>
+              
               
               <p className={styles.heroSubtitle}>
                  A multichain NFT marketplace built by&nbsp;
@@ -83,11 +75,11 @@ const Home: NextPage = () => {
                 
               </div>
             </div>
-          </div>
-        </div>
+         
       
     
   );
 };
 
 export default Home;
+
