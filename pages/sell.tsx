@@ -39,7 +39,7 @@ export default function Sell() {
               setSelectedNft(nft);
             }}
             emptyText={
-              "Looks like you don't own any NFTs in this collection. Head to the buy page to buy some!"
+              "Looks like you don't own any NFTs in this collection. Make sure to connect your wallet & head to the buy page to purchase some NFTs!"
             }
           />
         </>
