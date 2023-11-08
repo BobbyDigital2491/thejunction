@@ -7,7 +7,7 @@ export const NETWORK = Polygon;
 
 // 2. The address of the marketplace V3 smart contract.
 // Deploy your own: https://thirdweb.com/thirdweb.eth/MarketplaceV3
-export const MARKETPLACE_ADDRESS = "0x9eED42D79D4119DCa97eC4f5286b52b3586BBcb6";
+export const MARKETPLACE_ADDRESS = "0xED2201504347c0b02E23C14f3D118D0fa40fE40A";
 
 // 3. The address of your NFT collection smart contract.
 export const NFT_COLLECTION_ADDRESS =
